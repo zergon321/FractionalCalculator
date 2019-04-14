@@ -28,13 +28,20 @@ namespace FractionalCalculator
         {
             switch (op)
             {
-                case '(': return 0;
-                case ')': return 1;
-                case '+': return 2;
-                case '-': return 2;
-                case '*': return 4;
-                case '/': return 4;
-                default: return 6;
+                case '(':
+                    return 0;
+                case ')':
+                    return 1;
+                case '+':
+                    return 2;
+                case '-':
+                    return 2;
+                case '*':
+                    return 4;
+                case '/':
+                    return 4;
+                default:
+                    return 6;
             }
         }
 
