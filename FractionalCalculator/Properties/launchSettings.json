@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FractionalCalculator": {
+      "commandName": "Project",
+      "commandLineArgs": "-s"
+    }
+  }
+}
