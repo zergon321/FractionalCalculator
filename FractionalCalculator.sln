@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.28721.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FractionalCalculator", "FractionalCalculator\FractionalCalculator.csproj", "{864BA2AB-1475-411A-B7B2-68AB01BAF432}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{1A50C1A4-904B-4160-9F00-85E938D9C75B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", "{1A50C1A4-904B-4160-9F00-85E938D9C75B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Addition", "Addition\Addition.csproj", "{F161F031-573D-4FCA-919D-38451632A431}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{1A50C1A4-904B-4160-9F00-85E938D9C75B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A50C1A4-904B-4160-9F00-85E938D9C75B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A50C1A4-904B-4160-9F00-85E938D9C75B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F161F031-573D-4FCA-919D-38451632A431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F161F031-573D-4FCA-919D-38451632A431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F161F031-573D-4FCA-919D-38451632A431}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F161F031-573D-4FCA-919D-38451632A431}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
