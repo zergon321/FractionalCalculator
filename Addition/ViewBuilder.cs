@@ -17,11 +17,11 @@ namespace Addition
             int degree = NumberWork.GetMostRoundingDegree(model.First, model.Second);
             long xArg = (long)(model.First * NumberWork.Pow(10, degree));
             long yArg = (long)(model.Second * NumberWork.Pow(10, degree));
-            int maxLength = NumberWork.GetMaxLength(xArg,yArg);
+            int maxLength = NumberWork.GetMaxLength(xArg, yArg);
 
             view.AddLine(makeIndent(Indent) + xArg);
             view.AddLine(makeIndent(Indent + maxLength - NumberWork.NumLength(yArg)) + yArg);
-            view.AddLine(makeIndent(Indent + maxLength) + makeLine(maxLength));
+            view.AddLine(makeIndent(Indent) + makeLine(maxLength));
 
             foreach (var component in model.Components)
                 view.AddLine(makeIndent(Indent + maxLength - NumberWork.NumLength(component)) + component);
@@ -34,6 +34,6 @@ namespace Addition
 
         private string makeIndent(int indent) => String.Join("", Enumerable.Repeat(" ", indent));
 
-        private string makeLine(int length) => String.Join("-", Enumerable.Repeat(" ", length));
+        private string makeLine(int length) => String.Join("", Enumerable.Repeat("-", length));
     }
 }
